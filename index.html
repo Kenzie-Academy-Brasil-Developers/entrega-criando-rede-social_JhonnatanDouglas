@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css"/>
+    <link rel="stylesheet" href="./src/styles/globalStyles.css"/>
+    <link rel="stylesheet" href="./src/styles/buttons.css"/>
+    <link rel="stylesheet" href="./src/pages/styles/index.css"/>
+    <link rel="stylesheet" href="./src/styles/responsiveSizes.css"/>
 
     <!-- FONTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +20,43 @@
       rel="stylesheet"
     />
 
+    <!-- SCRIPTS -->
+    <!-- <script type="module" src="./src/scripts/database.js"></script> -->
+    <!-- <script type="module" src="./src/scripts/database.js"></script> -->
+    <script type="module" src="./src/pages/scripts/index.js"></script>
+    
     <title>Criando rede social</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header__container">
+      <div>
+        <img src="./src/assets/img/logo.svg" alt="">
+        <a href="#">Sair</a>
+      </div>
+    </header>
+    <main class="main__container">
+      <section class="section-head__container">
+        <div class="post-send__container">
+        </div>
+        <div class="suggestion-follow__container">
+          <div>
+            <h2>Sugestões para você seguir</h2>
+          </div>
+          <ul id="suggest__user">
+          </ul>
+        </div>
+      </section>
+      <section class="posts__container">
+        <div>
+          <h1>Posts</h1>
+        </div>
+        <ul id="posts__list">
+        </ul>
+      </section>
+      <dialog id="modal__controller">
+        <div class="modal__container">
+        </div>
+      </dialog>
+    </main>
+  </body>
 </html>

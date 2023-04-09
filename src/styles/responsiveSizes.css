@@ -1,0 +1,81 @@
+@media (min-width: 426px) and (max-width: 768px) {    
+    .section-head__container{
+        max-width: 100%;
+    }
+    
+    .main__container{
+        margin: 7.8125rem 2.5rem 1.875rem;
+        max-width: 43.125rem;
+    }
+    .suggestion-follow__container > ul {
+        justify-content: space-between;
+    }
+
+    #modal__controller {
+        margin-top: 6.25rem;
+        width: 43.125rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .section-head__container{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        gap: 4.375rem;
+    }
+    
+    .main__container{
+        margin: 7.8125rem 3.125rem 1.875rem;
+        max-width: 57.5rem;
+    }
+
+    .post-send__container {
+        width: 60%;
+    }
+
+    .suggestion-follow__container {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: max-content;
+    }
+
+    .suggestion-follow__container > ul {
+        overflow-x: unset;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .follow__list {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        width: 100%;
+    }
+
+    .follow__list > div {
+        align-items: flex-start;
+    }
+
+    .posts__container {
+        width: 31.875rem;
+    }
+
+    #modal__controller {
+        margin-top: 6.25rem;
+        width: 47.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header__container > div {
+        width: 58.5rem;
+    }
+
+    .main__container{
+        margin: 7.8125rem auto 1.875rem;
+        max-width: 57.5rem;
+    }
+}
