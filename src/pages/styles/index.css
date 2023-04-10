@@ -96,6 +96,7 @@
 .suggestion-follow__container > ul {
     display: flex;
     height: 7.5rem;
+    margin: auto auto 0rem 0rem;
     margin-top: 3.75rem;
     gap: var(--gap-5);
     overflow-x: auto;

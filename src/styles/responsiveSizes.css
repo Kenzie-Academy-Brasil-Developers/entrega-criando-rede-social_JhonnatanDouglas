@@ -50,7 +50,6 @@
     .follow__list {
         flex-direction: row;
         justify-content: space-between;
-        flex-wrap: wrap;
         gap: 1.25rem;
         width: 100%;
     }
@@ -71,11 +70,39 @@
 
 @media (min-width: 1025px) {
     .header__container > div {
-        width: 58.5rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        width: 100rem;
+    }
+
+    .main__container{
+        margin: 7.8125rem 10rem 1.875rem;
+        max-width: 100rem;
+    }
+
+    .post-send__container {
+        width: 60%;
+    }
+
+    .suggestion-follow__container {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: max-content;
+    }
+
+    .posts__container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .header__container > div {
+        width: 100rem;
     }
 
     .main__container{
         margin: 7.8125rem auto 1.875rem;
-        max-width: 57.5rem;
+        max-width: 100rem;
     }
 }
