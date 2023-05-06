@@ -1,4 +1,4 @@
-# **Nome do Projeto:** 🏁 Entrega: Rede Social
+# 🏁 Entrega: Rede Social
 
 ### :date: **Período do Projeto:** Módulo 2 - Semana 2
 ### :iphone: **Mobile First =** True
